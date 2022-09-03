@@ -1,5 +1,6 @@
 # Assignment-Eminent-Technologies-Solutions
 
+<<<<<<< HEAD
 ## The project can be viewed live at [https://aashutosh-kr.github.io/Assignment-Eminent-Technologies-Solutions/](https://aashutosh-kr.github.io/Assignment-Eminent-Technologies-Solutions/)
 
 ## To run the project locally
