@@ -8,4 +8,4 @@
 1. Clone the repository
 2. Run `npm install` to install all the dependencies
 3. Run `npm start` to start the server
-4. Open [http://localhost:5173](http://localhost:3000) to view it in the browser.
+4. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
