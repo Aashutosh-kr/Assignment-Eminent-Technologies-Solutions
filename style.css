@@ -315,7 +315,7 @@ main > section p {
 	justify-content: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
 	.service {
 		flex-direction: row;
 	}
@@ -332,9 +332,6 @@ main > section p {
 
 .contacts {
 	--gap: 0.6rem;
-	width: max-content;
-	width: 65%;
-	margin-inline: auto;
 }
 
 .contacts li {
@@ -344,21 +341,31 @@ main > section p {
 	gap: var(--gap);
 }
 
+.contacts,
+.address {
+	width: 100%;
+	margin-inline: auto;
+	border: 1px solid black;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
 @media screen and (min-width: 1024px) {
+	.contacts,
+	.address {
+		width: 65%;
+	}
+
 	.contacts li {
 		justify-content: start;
 	}
-}
-
-.address {
-	width: 70%;
-	margin-inline: auto;
 }
 
 @media screen and (max-width: 700px) {
 	address {
 		padding-left: 1rem;
 	}
+
 	.address h3 {
 		text-align: center;
 	}
@@ -375,11 +382,4 @@ footer {
 	color: white;
 	text-align: center;
 	font-size: var(--h5-size);
-}
-
-.contacts,
-.address {
-	border: 1px solid black;
-	border-radius: 1rem;
-	padding: 1rem;
 }
